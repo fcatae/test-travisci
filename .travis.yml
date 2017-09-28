@@ -1,3 +1,3 @@
 language: node_js
-install: chmod +x ./ci.sh
+install: chmod +x ./test.sh
 script: ./test.sh

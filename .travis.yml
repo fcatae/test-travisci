@@ -1,3 +1,6 @@
-language: node_js
-install: chmod +x ./test.sh
-script: ./test.sh
+language: csharp
+mono: none
+dotnet: 1.0.3
+dist: trusty
+script:
+ - dotnet restore
